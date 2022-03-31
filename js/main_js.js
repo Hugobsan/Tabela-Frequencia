@@ -64,7 +64,7 @@ function calc(){
         fr = (fi / n);
         fac = (fr+fr_ant);
         fr_ant += fr;
-        tabela.innerHTML += '<tr class="text-left"> <td>('+initInterClass.toFixed(2)+', '+finalInterClass.toFixed(2)+']</td> <td>'+fi+'</td> <td>'+fr.toFixed(4)+'</td> <td>'+fac.toFixed(4)+'</td> </tr>'
+        tabela.innerHTML += '<tr class="text-left"> <td>['+initInterClass.toFixed(2)+', '+finalInterClass.toFixed(2)+')</td> <td>'+fi+'</td> <td>'+fr.toFixed(4)+'</td> <td>'+fac.toFixed(4)+'</td> </tr>'
         initInterClass = finalInterClass
         finalInterClass +=C
         fi=0
